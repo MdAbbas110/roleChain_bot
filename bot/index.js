@@ -4,7 +4,7 @@ const bot = new Telegraf(TOKEN);
 const express = require("express");
 const app = express();
 app.use(express.json());
-const web_link = "https://mini-app-nu.vercel.app/"; // Update to Cribble domain
+const web_link = "https://role-chain-bot.vercel.app//"; // Update to Cribble domain
 const community_link = "https://t.me/cribbleapp"; // Update to Cribble community
 
 // Handle the `/start` command
